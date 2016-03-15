@@ -9,20 +9,17 @@
 
             <div class="step shown" id=personaldetails>
 
-                <ul class="header">
-                <li class="current" style="width:50%;">Datos personales</li>
-                    <li style="width:50%;">Cuenta de bwin</li>
-
-</ul>
+                <h1>Registro de alta</h1>
+                <h2>Ingreso de datos personles</h2>
 
 
 
                 <div class="fields">
                         <div id=Gender class="fieldContainer">
-<label for="Input_NameData_Gender">Tratamiento</label>
+<label for="Input_NameData_Gender">Sexo</label>
                             
     <div class="radioOptions">
-<label class="radio-label"><input Checked="checked" data-val="true" data-val-errorcode="AN" data-val-required="Es obligatorio indicar el tratamiento." id="Input_NameData_Gender" name="Input.NameData.Gender" type="radio" value="Male" /><span class="radio"></span><span>Sr.</span></label><label class="radio-label"><input id="Input_NameData_Gender" name="Input.NameData.Gender" type="radio" value="Female" /><span class="radio"></span><span>Sra.</span></label>
+<label class="radio-label"><input Checked="checked" data-val="true" data-val-errorcode="AN" data-val-required="Es obligatorio indicar el tratamiento." id="Input_NameData_Gender" name="Input.NameData.Gender" type="radio" value="Male" /><span class="radio"></span><span>Hombre</span></label><label class="radio-label"><input id="Input_NameData_Gender" name="Input.NameData.Gender" type="radio" value="Female" /><span class="radio"></span><span>Mujer</span></label>
     </div>
 
 
@@ -30,13 +27,13 @@
                         </div>
                         <div id=FirstName class="fieldContainer">
 <label for="Input_NameData_FirstName">Nombre</label>
-                            <input data-val="true" data-val-errorcode="AM" data-val-length="El nombre debe contener entre 2 y 50 caracteres." data-val-length-max="50" data-val-length-min="2" data-val-regex="En el nombre no se pueden introducir caracteres especiales." data-val-regex-pattern="^[^0-9!@#%$^.*+?[\]\\&amp;]*$" data-val-required="Es necesario introducir el nombre." id="Input_NameData_FirstName" name="Input.NameData.FirstName" title="" type="text" value="" />
+                            <input type="text" value="" required /> 
 
                             <div data-valmsg-for="Input.NameData.FirstName" data-valmsg-replace="false"></div>
                         </div>
                         <div id=LastName class="fieldContainer">
 <label for="Input_NameData_LastName">Apellido</label>
-                            <input data-val="true" data-val-errorcode="AS" data-val-length="El apellido debe contener entre 2 y 50 caracteres." data-val-length-max="50" data-val-length-min="2" data-val-regex="El apellido no se puede indicar con caracteres especiales." data-val-regex-pattern="^[^0-9!@#%$^.*+?[\]\\&amp;]*$" data-val-required="Es obligatorio introducir el apellido." id="Input_NameData_LastName" name="Input.NameData.LastName" title="" type="text" value="" />
+                            <input type="text" value="" required />
 
                             <div data-valmsg-for="Input.NameData.LastName" data-valmsg-replace="false"></div>
                         </div>
