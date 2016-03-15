@@ -1,0 +1,776 @@
+<form action="/process.php?d=x5B99FmPCRZQkMLRG1Tcg4tDJDQSj2x7vdGlwT6Cs%2Fw%3D&b=1" data-submitdisabledvalue="true" id="registration-form" method="post"><input name="__RequestVerificationToken" type="hidden" value="lp35VKSV9WkVHMi-HfWCNn-fpH6J13hwHst4VKMAqUa5Cxt9LI-T70VUww4We5gQCRnG6Q2" />    <div id="summary-panel" class=" ">
+        <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+    </div>
+    <fieldset id="registration-fieldset">
+
+    <div id="steps">
+
+
+            <div class="step shown" id=personaldetails>
+
+                <ul class="header">
+                <li class="current" style="width:50%;">Datos personales</li>
+                    <li style="width:50%;">Cuenta de bwin</li>
+
+</ul>
+
+
+
+                <div class="fields">
+                        <div id=Gender class="fieldContainer">
+<label for="Input_NameData_Gender">Tratamiento</label>
+                            
+    <div class="radioOptions">
+<label class="radio-label"><input Checked="checked" data-val="true" data-val-errorcode="AN" data-val-required="Es obligatorio indicar el tratamiento." id="Input_NameData_Gender" name="Input.NameData.Gender" type="radio" value="Male" /><span class="radio"></span><span>Sr.</span></label><label class="radio-label"><input id="Input_NameData_Gender" name="Input.NameData.Gender" type="radio" value="Female" /><span class="radio"></span><span>Sra.</span></label>
+    </div>
+
+
+                            <div data-valmsg-for="Input.NameData.Gender" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=FirstName class="fieldContainer">
+<label for="Input_NameData_FirstName">Nombre</label>
+                            <input data-val="true" data-val-errorcode="AM" data-val-length="El nombre debe contener entre 2 y 50 caracteres." data-val-length-max="50" data-val-length-min="2" data-val-regex="En el nombre no se pueden introducir caracteres especiales." data-val-regex-pattern="^[^0-9!@#%$^.*+?[\]\\&amp;]*$" data-val-required="Es necesario introducir el nombre." id="Input_NameData_FirstName" name="Input.NameData.FirstName" title="" type="text" value="" />
+
+                            <div data-valmsg-for="Input.NameData.FirstName" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=LastName class="fieldContainer">
+<label for="Input_NameData_LastName">Apellido</label>
+                            <input data-val="true" data-val-errorcode="AS" data-val-length="El apellido debe contener entre 2 y 50 caracteres." data-val-length-max="50" data-val-length-min="2" data-val-regex="El apellido no se puede indicar con caracteres especiales." data-val-regex-pattern="^[^0-9!@#%$^.*+?[\]\\&amp;]*$" data-val-required="Es obligatorio introducir el apellido." id="Input_NameData_LastName" name="Input.NameData.LastName" title="" type="text" value="" />
+
+                            <div data-valmsg-for="Input.NameData.LastName" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=DateOfBirth class="fieldContainer">
+<label for="Input_BirthData_DateOfBirth">Fecha de nacimiento </label>
+                            
+<div id="customdatetime">
+
+    <select class="please-select" id="Input_BirthData_DateOfBirth_Day" name="Input.BirthData.DateOfBirth.Day"><option value="">DD</option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+
+    <select class="please-select" id="Input_BirthData_DateOfBirth_Month" name="Input.BirthData.DateOfBirth.Month"><option value="">MM</option>
+<option value="1">ene</option>
+<option value="2">feb</option>
+<option value="3">mar</option>
+<option value="4">abr</option>
+<option value="5">may</option>
+<option value="6">jun</option>
+<option value="7">jul</option>
+<option value="8">ago</option>
+<option value="9">sep</option>
+<option value="10">oct</option>
+<option value="11">nov</option>
+<option value="12">dic</option>
+</select>
+
+<input id="Input_BirthData_DateOfBirth_Year" maxlength="4" name="Input.BirthData.DateOfBirth.Year" placeholder="AAAA" title="Por favor, introduzca una fecha" type="text" value="" />
+<input class=".validate-hidden" data-val="true" data-val-errorcode="AK" data-val-isvaliddate="La fecha de nacimiento no es válida." data-val-isvaliddate-required="True" data-val-maxage="La fecha de nacimiento no se encuentra dentro del periodo autorizado." data-val-maxage-data="118" data-val-minage="La fecha de nacimiento no se encuentra dentro del periodo autorizado." data-val-minage-data="18" data-val-required="Debe introducir la fecha de nacimiento." id="Input_BirthData_DateOfBirth" name="Input.BirthData.DateOfBirth" type="hidden" value="" />
+</div>
+
+
+
+                            <div data-valmsg-for="Input.BirthData.DateOfBirth" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=AddressCountryCode class="fieldContainer">
+<label for="Input_AddressData_AddressCountryCode">Pa&#237;s de residencia</label>
+                            
+<select class="please-select" data-submitdisabledvalue="true" data-val="true" data-val-errorcode="AB" data-val-required="Es necesario indicar el país de residencia." id="Input_AddressData_AddressCountryCode" name="Input.AddressData.AddressCountryCode" title=""><option value="">Por favor, elija...</option>
+<option value="DE">Alemania</option>
+<option value="AD">Andorra</option>
+<option value="AO">Angola</option>
+<option value="AI">Anguila</option>
+<option value="AQ">Ant&#225;rtida</option>
+<option value="AG">Antigua y Barbuda</option>
+<option value="SA">Arabia Saud&#237;</option>
+<option value="DZ">Argelia</option>
+<option value="AW">Aruba</option>
+<option value="AC">Ascensi&#243;n</option>
+<option value="AT">Austria</option>
+<option value="AZ">Azerbaiy&#225;n</option>
+<option value="BS">Bahamas</option>
+<option value="BH">Bahrein</option>
+<option value="BD">Bangladesh</option>
+<option value="BB">Barbados</option>
+<option value="BE">B&#233;lgica</option>
+<option value="BZ">Belice</option>
+<option value="BJ">Benin</option>
+<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+<option value="BA">Bosnia Herzegovina</option>
+<option value="BW">Botswana</option>
+<option value="BN">Brunei</option>
+<option value="BF">Burkina</option>
+<option value="BI">Burundi</option>
+<option value="BT">But&#225;n</option>
+<option value="CV">Cabo Verde</option>
+<option value="KH">Camboya</option>
+<option value="CM">Camer&#250;n</option>
+<option value="CA">Canad&#225;</option>
+<option value="TD">Chad</option>
+<option value="CY">Chipre</option>
+<option value="KM">Comoros</option>
+<option value="KR">Corea</option>
+<option value="CR">Costa Rica</option>
+<option value="HR">Croacia</option>
+<option value="CU">Cuba</option>
+<option value="CW">Cura&#231;ao</option>
+<option value="DK">Dinamarca</option>
+<option value="DJ">Djibuti</option>
+<option value="DM">Dominica</option>
+<option value="EG">Egipto</option>
+<option value="SV">El Salvador</option>
+<option value="AE">Emiratos &#193;rabes Unidos</option>
+<option value="ER">Eritrea</option>
+<option value="SK">Eslovaquia</option>
+<option value="SI">Eslovenia</option>
+<option value="ES">Espa&#241;a</option>
+<option value="VA">Estado de la Ciudad del Vaticano</option>
+<option value="EE">Estonia</option>
+<option value="ET">Etiop&#237;a</option>
+<option value="FJ">Fidji</option>
+<option value="PH">Filipinas</option>
+<option value="FR">Francia</option>
+<option value="GA">Gab&#243;n</option>
+<option value="GM">Gambia</option>
+<option value="GE">Georgia</option>
+<option value="GH">Ghana</option>
+<option value="GI">Gibraltar</option>
+<option value="GL">Groenlandia</option>
+<option value="GP">Guadalupe</option>
+<option value="GT">Guatemala</option>
+<option value="GF">Guayana Francesa</option>
+<option value="GN">Guinea</option>
+<option value="GQ">Guinea Ecuatorial</option>
+<option value="GW">Guinea-Bissau</option>
+<option value="NL">Holanda</option>
+<option value="HN">Honduras</option>
+<option value="HU">Hungr&#237;a</option>
+<option value="ID">Indonesia</option>
+<option value="IE">Irlanda</option>
+<option value="BV">Isla Bouvet</option>
+<option value="IS">Islandia</option>
+<option value="KY">Islas Caim&#225;n</option>
+<option value="CC">Islas Cocos</option>
+<option value="CK">Islas Cook</option>
+<option value="FO">Islas Faroe</option>
+<option value="HM">Islas Heard y Mc Donald</option>
+<option value="FK">Islas Malvinas</option>
+<option value="MH">Islas Marshall</option>
+<option value="CX">Islas Navidad</option>
+<option value="NF">Islas Norfolk</option>
+<option value="PW">Islas Palau</option>
+<option value="SB">Islas Salom&#243;n</option>
+<option value="SJ">Islas Svalbard y Jan Mayen</option>
+<option value="TK">Islas Tokelau</option>
+<option value="TC">Islas Turcos y Caicos</option>
+<option value="VG">Islas V&#237;rgenes (Brit&#225;nicas)</option>
+<option value="IT">Italia</option>
+<option value="JM">Jamaica</option>
+<option value="JP">Jap&#243;n</option>
+<option value="JO">Jordania</option>
+<option value="KZ">Kazajist&#225;n</option>
+<option value="KE">Kenia</option>
+<option value="KI">Kiribati</option>
+<option value="KW">Kuwait</option>
+<option value="KG">Kyrgyzstan</option>
+<option value="LA">Laos</option>
+<option value="LS">Lesotho</option>
+<option value="LY">Libia</option>
+<option value="LI">Liechtenstein</option>
+<option value="LU">Luxemburgo</option>
+<option value="MG">Madagascar</option>
+<option value="MY">Malasia</option>
+<option value="MW">Malawi</option>
+<option value="MV">Maldivas</option>
+<option value="ML">Mali</option>
+<option value="MT">Malta</option>
+<option value="MA">Marruecos</option>
+<option value="MQ">Martinica</option>
+<option value="MU">Mauricios</option>
+<option value="MR">Mauritania</option>
+<option value="MX">M&#233;xico</option>
+<option value="FM">Micronesia</option>
+<option value="MC">M&#243;naco</option>
+<option value="MN">Mongolia</option>
+<option value="ME">Montenegro</option>
+<option value="MS">Montserrat</option>
+<option value="MZ">Mozambique</option>
+<option value="NA">Namibia</option>
+<option value="NR">Nauru</option>
+<option value="NP">Nepal</option>
+<option value="NI">Nicaragua</option>
+<option value="NE">N&#237;ger</option>
+<option value="NG">Nigeria</option>
+<option value="NU">Niue</option>
+<option value="NO">Noruega</option>
+<option value="NZ">Nueva Zelanda</option>
+<option value="TF">Ocean&#237;a francesa</option>
+<option value="OM">Om&#225;n</option>
+<option value="PA">Panam&#225;</option>
+<option value="PG">Pap&#250;a Nueva Guinea</option>
+<option value="PY">Paraguay</option>
+<option value="PN">Pitcairn</option>
+<option value="PF">Polinesia francesa</option>
+<option value="PL">Polonia</option>
+<option value="QA">Qatar</option>
+<option selected="selected" value="GB">Reino Unido</option>
+<option value="CF">Rep&#250;blica Centroafricana</option>
+<option value="CZ">Rep&#250;blica Checa</option>
+<option value="DO">Rep&#250;blica Dominicana</option>
+<option value="RE">Reunion</option>
+<option value="RU">Rusia</option>
+<option value="EH">Sahara Occidental</option>
+<option value="KN">San Crist&#243;bal y Nevis</option>
+<option value="SM">San Marino</option>
+<option value="VC">San Vicente y Granadinas</option>
+<option value="SH">Santa Helena</option>
+<option value="LC">Santa Luc&#237;a</option>
+<option value="ST">Santo Tom&#233; y Pr&#237;ncipe</option>
+<option value="SN">Senegal</option>
+<option value="SC">Seychelles</option>
+<option value="SX">Sint Maarten</option>
+<option value="LK">Sri Lanka</option>
+<option value="BL">St Barthelemy</option>
+<option value="PM">St. Pierre y Miquelon</option>
+<option value="SZ">Suazilandia</option>
+<option value="SE">Suecia</option>
+<option value="CH">Suiza</option>
+<option value="SR">Suriname</option>
+<option value="TH">Tailandia</option>
+<option value="TW">Taiw&#225;n</option>
+<option value="TJ">Tajikist&#225;n</option>
+<option value="TZ">Tanzania</option>
+<option value="IO">Territorio Brit&#225;nico en el Oc&#233;ano &#205;ndico</option>
+<option value="TP">Timor Oriental</option>
+<option value="TG">Togo</option>
+<option value="TO">Tonga</option>
+<option value="TT">Trinidad</option>
+<option value="TN">T&#250;nez</option>
+<option value="TM">Turkmenist&#225;n</option>
+<option value="TV">Tuvalu</option>
+<option value="UG">Uganda</option>
+<option value="UY">Uruguay</option>
+<option value="UZ">Uzbekist&#225;n</option>
+<option value="VU">Vanuatu</option>
+<option value="VN">Vietnam</option>
+<option value="YE">Yemen</option>
+<option value="ZM">Zambia</option>
+</select><input id="Input_AddressData_AddressCountryCode" name="Input.AddressData.AddressCountryCode" type="hidden" value="DE" />
+
+                            <div data-valmsg-for="Input.AddressData.AddressCountryCode" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=AddressState class="fieldContainer">
+<label for="Input_AddressData_AddressState">Provincia</label>
+                            
+<select class="please-select" data-submitdisabledvalue="true" data-val="true" data-val-errorcode="AF" data-val-required="Es necesario indicar la provincia." id="Input_AddressData_AddressState" name="Input.AddressData.AddressState" title=""><option value="">Por favor, elija...</option>
+<option value="AVON">Avon</option>
+<option value="AYRSHIRE">Ayrshire</option>
+<option value="BEDFORDSHIRE">Bedfordshire</option>
+<option value="BERKSHIRE">Berkshire</option>
+<option value="BORDERS">Borders</option>
+<option value="BUCKINGHAMSHIRE">Buckinghamshire</option>
+<option value="CAMBRIDGESHIRE">Cambridgeshire</option>
+<option value="CENTRAL">Central</option>
+<option value="CHANNEL ISLANDS">Channel Islands</option>
+<option value="CHESHIRE">Cheshire</option>
+<option value="CLEVELAND">Cleveland</option>
+<option value="CLWYD">Clwyd</option>
+<option value="CORNWALL">Cornwall</option>
+<option value="COUNTY ANTRIM">County Antrim</option>
+<option value="COUNTY ARMAGH">County Armagh</option>
+<option value="COUNTY DOWN">County Down</option>
+<option value="COUNTY FERMANAGH">County Fermanagh</option>
+<option value="COUNTY LONDONDERRY">County Londonderry</option>
+<option value="COUNTY TYRONE">County Tyrone</option>
+<option value="CUMBRIA">Cumbria</option>
+<option value="DERBYSHIRE">Derbyshire</option>
+<option value="DEVON">Devon</option>
+<option value="DORSET">Dorset</option>
+<option value="DUMFRIES AND GALLOWAY">Dumfries and Galloway</option>
+<option value="DURHAM">Durham</option>
+<option value="DYFED">Dyfed</option>
+<option value="EAST RIDING OF YORKSHIRE">East Riding of Yorkshire</option>
+<option value="EAST SUSSEX">East Sussex</option>
+<option value="ESSEX">Essex</option>
+<option value="FIFE">Fife</option>
+<option value="GLOUCESTERSHIRE">Gloucestershire</option>
+<option value="GRAMPIAN">Grampian</option>
+<option value="GREATER MANCHESTER">Greater Manchester</option>
+<option value="GWENT">Gwent</option>
+<option value="GWYNEDD COUNTY">Gwynedd County</option>
+<option value="HAMPSHIRE">Hampshire</option>
+<option value="HEREFORDSHIRE">Herefordshire</option>
+<option value="HERTFORDSHIRE">Hertfordshire</option>
+<option value="HIGHLANDS AND ISLANDS">Highlands and Islands</option>
+<option value="INNER HEBRIDES">Inner Hebrides</option>
+<option value="ISLE OF ANGLESEY">Isle of Anglesey</option>
+<option value="ISLE OF MAN">Isle of Man</option>
+<option value="ISLE OF WIGHT">Isle of Wight</option>
+<option value="JERSEY">Jersey</option>
+<option value="KENT">Kent</option>
+<option value="LANARKSHIRE">Lanarkshire</option>
+<option value="LANCASHIRE">Lancashire</option>
+<option value="LEICESTERSHIRE">Leicestershire</option>
+<option value="LINCOLNSHIRE">Lincolnshire</option>
+<option value="LONDON">London</option>
+<option value="LOTHIAN">Lothian</option>
+<option value="MERSEYSIDE">Merseyside</option>
+<option value="MID GLAMORGAN">Mid Glamorgan</option>
+<option value="MIDDLESEX">Middlesex</option>
+<option value="MIDLOTHIAN">Midlothian</option>
+<option value="NORFOLK">Norfolk</option>
+<option value="NORTH EAST LINCOLNSHIRE">North East Lincolnshire</option>
+<option value="NORTH WEST">North West</option>
+<option value="NORTH YORKSHIRE">North Yorkshire</option>
+<option value="NORTHAMPTONSHIRE">Northamptonshire</option>
+<option value="NORTHUMBERLAND">Northumberland</option>
+<option value="NOTTINGHAMSHIRE">Nottinghamshire</option>
+<option value="OXFORDSHIRE">Oxfordshire</option>
+<option value="POWYS">Powys</option>
+<option value="RUTLAND">Rutland</option>
+<option value="SHROPSHIRE">Shropshire</option>
+<option value="SOMERSET">Somerset</option>
+<option value="SOUTH GLAMORGAN">South Glamorgan</option>
+<option value="SOUTH YORKSHIRE">South Yorkshire</option>
+<option value="STAFFORDSHIRE">Staffordshire</option>
+<option value="SUFFOLK">Suffolk</option>
+<option value="SURREY">Surrey</option>
+<option value="SUSSEX">Sussex</option>
+<option value="TAYSIDE">Tayside</option>
+<option value="TYNE AND WEAR">Tyne and Wear</option>
+<option value="WAKEFIELD">Wakefield</option>
+<option value="WARWICKSHIRE">Warwickshire</option>
+<option value="WEST GLAMORGAN">West Glamorgan</option>
+<option value="WEST MIDLANDS">West Midlands</option>
+<option value="WEST SUSSEX">West Sussex</option>
+<option value="WEST YORKSHIRE">West Yorkshire</option>
+<option value="WILTSHIRE">Wiltshire</option>
+<option value="WORCESTERSHIRE">Worcestershire</option>
+<option value="ZZ">Other</option>
+</select><input id="Input_AddressData_AddressState" name="Input.AddressData.AddressState" type="hidden" value="AVON" />
+
+                            <div data-valmsg-for="Input.AddressData.AddressState" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=AddressCity class="fieldContainer">
+<label for="Input_AddressData_AddressCity">Ciudad</label>
+                            <input data-val="true" data-val-errorcode="AA" data-val-length="El nombre de la ciudad es demasiado corto o demasiado largo." data-val-length-max="50" data-val-length-min="2" data-val-required="Es necesario indicar la ciudad de residencia." id="Input_AddressData_AddressCity" name="Input.AddressData.AddressCity" title="" type="text" value="" />
+
+                            <div data-valmsg-for="Input.AddressData.AddressCity" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=AddressZip class="fieldContainer">
+<label for="Input_AddressData_AddressZip">C&#243;digo postal</label>
+                            <input data-val="true" data-val-errorcode="AH" data-val-length="El código postal es demasiado corto o demasiado largo." data-val-length-max="15" data-val-length-min="3" data-val-regex="El código postal tiene que coincidir con su nomenclatura habitual.." data-val-regex-pattern="^[A-Za-z0-9]*[ A-Za-z0-9-]*[A-Za-z0-9]$" data-val-required="Es obligatorio indicar el código postal." id="Input_AddressData_AddressZip" name="Input.AddressData.AddressZip" title="" type="text" value="" />
+
+                            <div data-valmsg-for="Input.AddressData.AddressZip" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=AddressLine1 class="fieldContainer">
+<label for="Input_AddressData_AddressLine1">Direcci&#243;n</label>
+                            <input data-val="true" data-val-errorcode="AE" data-val-length="La dirección indicada es demasiado corta o demasiado larga." data-val-length-max="100" data-val-length-min="6" data-val-required="Por favor, indique su dirección." id="Input_AddressData_AddressLine1" name="Input.AddressData.AddressLine1" title="" type="text" value="" />
+
+                            <div data-valmsg-for="Input.AddressData.AddressLine1" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=EmailAddress class="fieldContainer">
+<label for="Input_ContactData_EmailAddress">E-Mail</label>
+                            <input class="has-icon-info" data-val="true" data-val-errorcode="AL" data-val-length="La dirección de e-mail es demasiado corta o demasiado larga." data-val-length-max="100" data-val-length-min="2" data-val-regex="La dirección de e-mail no es válida." data-val-regex-pattern="(([^&lt;>;()[\]\\.,;:@&quot;\s~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ]+(\.[^&lt;>()[\]\\.,;:@&quot;\s~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ]+)*)|(&quot;.+&quot;))@((\[([0-9]{1,3}\.){3}[0-9]{1,3}\])|(([a-zA-Z0-9]+[\.\-]?)*[a-zA-Z0-9]{1}\.(([a-zA-Z]{2,3})|(aero|coop|info|museum|name|mobi|arpa|asia|jobs|travel|post|test))))$" data-val-required="Es necesario indicar la dirección de e-mail." id="Input_ContactData_EmailAddress" name="Input.ContactData.EmailAddress" title="Necesitamos su dirección de e-mail principal para poder enviarle los datos de su cuenta y confirmar su registro." type="text" value="" />
+
+                            <div data-valmsg-for="Input.ContactData.EmailAddress" data-valmsg-replace="false"></div><div class="iconInfo" title="Necesitamos su dirección de e-mail principal para poder enviarle los datos de su cuenta y confirmar su registro."></div>
+                        </div>
+                        <div id=MobileNumber class="fieldContainer">
+<label for="Input_ContactData_MobileNumber">N&#250;mero de m&#243;vil</label>
+                            
+<select data-val="true" data-val-errorcode="" id="Input_ContactData_MobileCountryCode" name="Input.ContactData.MobileCountryCode"><option value="1">+1</option>
+<option value="1242">+1242</option>
+<option value="1246">+1246</option>
+<option value="1264">+1264</option>
+<option value="1268">+1268</option>
+<option value="1284">+1284</option>
+<option value="1340">+1340</option>
+<option value="1345">+1345</option>
+<option value="1441">+1441</option>
+<option value="1473">+1473</option>
+<option value="1649">+1649</option>
+<option value="1664">+1664</option>
+<option value="1758">+1758</option>
+<option value="1767">+1767</option>
+<option value="1784">+1784</option>
+<option value="1787">+1787</option>
+<option value="1809">+1809</option>
+<option value="1868">+1868</option>
+<option value="1869">+1869</option>
+<option value="1876">+1876</option>
+<option value="20">+20</option>
+<option value="212">+212</option>
+<option value="213">+213</option>
+<option value="216">+216</option>
+<option value="218">+218</option>
+<option value="220">+220</option>
+<option value="221">+221</option>
+<option value="222">+222</option>
+<option value="223">+223</option>
+<option value="224">+224</option>
+<option value="225">+225</option>
+<option value="226">+226</option>
+<option value="227">+227</option>
+<option value="228">+228</option>
+<option value="229">+229</option>
+<option value="230">+230</option>
+<option value="231">+231</option>
+<option value="232">+232</option>
+<option value="233">+233</option>
+<option value="234">+234</option>
+<option value="235">+235</option>
+<option value="236">+236</option>
+<option value="237">+237</option>
+<option value="238">+238</option>
+<option value="239">+239</option>
+<option value="240">+240</option>
+<option value="241">+241</option>
+<option value="242">+242</option>
+<option value="243">+243</option>
+<option value="244">+244</option>
+<option value="245">+245</option>
+<option value="246">+246</option>
+<option value="247">+247</option>
+<option value="248">+248</option>
+<option value="249">+249</option>
+<option value="250">+250</option>
+<option value="251">+251</option>
+<option value="252">+252</option>
+<option value="253">+253</option>
+<option value="254">+254</option>
+<option value="255">+255</option>
+<option value="256">+256</option>
+<option value="257">+257</option>
+<option value="258">+258</option>
+<option value="260">+260</option>
+<option value="261">+261</option>
+<option value="262">+262</option>
+<option value="263">+263</option>
+<option value="264">+264</option>
+<option value="265">+265</option>
+<option value="266">+266</option>
+<option value="267">+267</option>
+<option value="268">+268</option>
+<option value="269">+269</option>
+<option value="27">+27</option>
+<option value="290">+290</option>
+<option value="291">+291</option>
+<option value="297">+297</option>
+<option value="298">+298</option>
+<option value="299">+299</option>
+<option value="30">+30</option>
+<option value="31">+31</option>
+<option value="32">+32</option>
+<option value="33">+33</option>
+<option value="34">+34</option>
+<option value="350">+350</option>
+<option value="351">+351</option>
+<option value="352">+352</option>
+<option value="353">+353</option>
+<option value="354">+354</option>
+<option value="355">+355</option>
+<option value="356">+356</option>
+<option value="357">+357</option>
+<option value="358">+358</option>
+<option value="359">+359</option>
+<option value="36">+36</option>
+<option value="370">+370</option>
+<option value="371">+371</option>
+<option value="372">+372</option>
+<option value="373">+373</option>
+<option value="374">+374</option>
+<option value="375">+375</option>
+<option value="376">+376</option>
+<option value="377">+377</option>
+<option value="378">+378</option>
+<option value="379">+379</option>
+<option value="380">+380</option>
+<option value="381">+381</option>
+<option value="382">+382</option>
+<option value="385">+385</option>
+<option value="386">+386</option>
+<option value="387">+387</option>
+<option value="389">+389</option>
+<option value="39">+39</option>
+<option value="40">+40</option>
+<option value="41">+41</option>
+<option value="420">+420</option>
+<option value="421">+421</option>
+<option value="423">+423</option>
+<option value="43">+43</option>
+<option selected="selected" value="44">+44</option>
+<option value="45">+45</option>
+<option value="46">+46</option>
+<option value="47">+47</option>
+<option value="48">+48</option>
+<option value="49">+49</option>
+<option value="500">+500</option>
+<option value="501">+501</option>
+<option value="502">+502</option>
+<option value="503">+503</option>
+<option value="504">+504</option>
+<option value="505">+505</option>
+<option value="506">+506</option>
+<option value="507">+507</option>
+<option value="508">+508</option>
+<option value="509">+509</option>
+<option value="51">+51</option>
+<option value="52">+52</option>
+<option value="53">+53</option>
+<option value="54">+54</option>
+<option value="55">+55</option>
+<option value="56">+56</option>
+<option value="57">+57</option>
+<option value="58">+58</option>
+<option value="590">+590</option>
+<option value="591">+591</option>
+<option value="592">+592</option>
+<option value="593">+593</option>
+<option value="594">+594</option>
+<option value="595">+595</option>
+<option value="596">+596</option>
+<option value="597">+597</option>
+<option value="598">+598</option>
+<option value="599">+599</option>
+<option value="60">+60</option>
+<option value="61">+61</option>
+<option value="62">+62</option>
+<option value="63">+63</option>
+<option value="64">+64</option>
+<option value="65">+65</option>
+<option value="66">+66</option>
+<option value="670">+670</option>
+<option value="6721">+6721</option>
+<option value="6722">+6722</option>
+<option value="6723">+6723</option>
+<option value="6724">+6724</option>
+<option value="673">+673</option>
+<option value="674">+674</option>
+<option value="675">+675</option>
+<option value="676">+676</option>
+<option value="677">+677</option>
+<option value="678">+678</option>
+<option value="679">+679</option>
+<option value="680">+680</option>
+<option value="681">+681</option>
+<option value="682">+682</option>
+<option value="683">+683</option>
+<option value="684">+684</option>
+<option value="685">+685</option>
+<option value="686">+686</option>
+<option value="687">+687</option>
+<option value="688">+688</option>
+<option value="689">+689</option>
+<option value="690">+690</option>
+<option value="691">+691</option>
+<option value="692">+692</option>
+<option value="7">+7</option>
+<option value="81">+81</option>
+<option value="82">+82</option>
+<option value="84">+84</option>
+<option value="850">+850</option>
+<option value="852">+852</option>
+<option value="853">+853</option>
+<option value="855">+855</option>
+<option value="856">+856</option>
+<option value="86">+86</option>
+<option value="872">+872</option>
+<option value="880">+880</option>
+<option value="886">+886</option>
+<option value="90">+90</option>
+<option value="91">+91</option>
+<option value="92">+92</option>
+<option value="93">+93</option>
+<option value="94">+94</option>
+<option value="95">+95</option>
+<option value="960">+960</option>
+<option value="961">+961</option>
+<option value="962">+962</option>
+<option value="963">+963</option>
+<option value="964">+964</option>
+<option value="965">+965</option>
+<option value="966">+966</option>
+<option value="967">+967</option>
+<option value="968">+968</option>
+<option value="971">+971</option>
+<option value="972">+972</option>
+<option value="973">+973</option>
+<option value="974">+974</option>
+<option value="975">+975</option>
+<option value="976">+976</option>
+<option value="977">+977</option>
+<option value="98">+98</option>
+<option value="992">+992</option>
+<option value="993">+993</option>
+<option value="994">+994</option>
+<option value="995">+995</option>
+<option value="996">+996</option>
+<option value="998">+998</option>
+</select><input class="has-icon-info" data-val="true" data-val-errorcode="AT" data-val-length="El número de móvil es demasiado corto o demasiado largo." data-val-length-max="15" data-val-length-min="5" data-val-regex="El número de móvil no es válido." data-val-regex-pattern="^[0-9]*$" data-val-required="Es necesario introducir el número de móvil." id="Input_ContactData_MobileNumber" name="Input.ContactData.MobileNumber" title="¡Podrá solicitar el envío de las confirmaciones del resultado de la apuesta directamente a su teléfono móvil!" type="text" value="" />
+
+
+                            <div data-valmsg-for="Input.ContactData.MobileNumber" data-valmsg-replace="false"></div><div class="iconInfo" title="¡Podrá solicitar el envío de las confirmaciones del resultado de la apuesta directamente a su teléfono móvil!"></div>
+                        </div>
+                                            <div id="continueToStep" class="btn-l3">
+                            <button name="nextStep" type="button">Continuar al paso 2</button>
+                        </div>
+
+                </div>
+            </div>
+            <div class="step hidden" id=accountdata>
+
+                <ul class="header">
+                    <li class="previous" style="width:50%;">
+                        <span data-step-id="personaldetails">
+                            Datos personales
+                        </span>
+                    </li>
+                <li class="current" style="width:50%;">Cuenta de bwin</li>
+
+</ul>
+
+
+
+                <div class="fields">
+                        <div id=Username class="fieldContainer">
+<label for="Input_LoginData_Username">Nombre de usuario</label>
+                            <input data-val="true" data-val-errorcode="BF" data-val-length="El nombre de usuario es demasiado corto o demasiado largo." data-val-length-max="15" data-val-length-min="5" data-val-regexlist="El nombre de usuario solo puede estar compuesto por letras (a-z, A-Z) y cifras (0-9)." data-val-regexlist-pattern0="^[A-Za-z].*" data-val-regexlist-pattern1="^[^ ].*[^ ]$" data-val-regexlist-pattern2="^[A-Za-z0-9 _\-.&amp;]*$" data-val-required="Es obligatorio indicar el nombre de usuario." id="Input_LoginData_Username" name="Input.LoginData.Username" title="Su nombre de usuario solo puede contener cifras y letras" type="text" value="" />        <div id="suggestion0" class="fieldContainer suggestion hidden">
+            <label class="radio-label"><input checked="checked" id="Input_LoginData_Username_UsernameSuggestion0" name="Input.LoginData.Username.UsernameSuggestion0" type="radio" value="" /><span class="radio"></span><span></span></label>
+        </div>
+        <div id="suggestion1" class="fieldContainer suggestion hidden">
+            <label class="radio-label"><input checked="checked" id="Input_LoginData_Username_UsernameSuggestion1" name="Input.LoginData.Username.UsernameSuggestion1" type="radio" value="" /><span class="radio"></span><span></span></label>
+        </div>
+        <div id="suggestion2" class="fieldContainer suggestion hidden">
+            <label class="radio-label"><input checked="checked" id="Input_LoginData_Username_UsernameSuggestion2" name="Input.LoginData.Username.UsernameSuggestion2" type="radio" value="" /><span class="radio"></span><span></span></label>
+        </div>
+        <div id="suggestion3" class="fieldContainer suggestion hidden">
+            <label class="radio-label"><input checked="checked" id="Input_LoginData_Username_UsernameSuggestion3" name="Input.LoginData.Username.UsernameSuggestion3" type="radio" value="" /><span class="radio"></span><span></span></label>
+        </div>
+        <div id="suggestion4" class="fieldContainer suggestion hidden">
+            <label class="radio-label"><input checked="checked" id="Input_LoginData_Username_UsernameSuggestion4" name="Input.LoginData.Username.UsernameSuggestion4" type="radio" value="" /><span class="radio"></span><span></span></label>
+        </div>
+        <div id="suggestion5" class="fieldContainer suggestion hidden">
+            <label class="radio-label"><input checked="checked" id="Input_LoginData_Username_UsernameSuggestion5" name="Input.LoginData.Username.UsernameSuggestion5" type="radio" value="" /><span class="radio"></span><span></span></label>
+        </div>
+
+
+
+
+                            <div data-valmsg-for="Input.LoginData.Username" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=Password class="fieldContainer">
+<label for="Input_LoginData_Password">Contrase&#241;a</label>
+                            <input data-val="true" data-val-errorcode="AV" data-val-length="La contraseña es demasiado corta o demasiado larga." data-val-length-max="20" data-val-length-min="6" data-val-regexlist="La contraseña no cumple con los requisitos mínimos o contiene caracteres especiales no permitidos." data-val-regexlist-pattern0=".*[A-Za-z].*" data-val-regexlist-pattern1=".*[0-9].*" data-val-regexlist-pattern2="^[^ ].*[^ ]$" data-val-regexlist-pattern3="^[^% &amp;&#39;&quot;&lt;>~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ]*$" data-val-required="Es obligatorio introducir la contraseña." data-val-restrictedfieldvalues="La contraseña no puede contener información personal (como nombre, nombre de usuario, e-mail, etc.)." data-val-restrictedfieldvalues-restrictedfields="FirstName#LastName#SecondLastName#EmailAddress#Username" id="Input_LoginData_Password" name="Input.LoginData.Password" title="&lt;b>Requisitos mínimos&lt;/b>&lt;UL id=&quot;requirements&quot;>&lt;LI>&lt;span class=&quot;icon&quot; id=&quot;requirement-StringLength&quot;>&lt;/span>6 – 20 caracteres&lt;/LI>&lt;LI>&lt;span class=&quot;icon&quot; id=&quot;requirement-RegularExpressionList&quot;>&lt;/span>Tiene que contener cifras y letras&lt;/LI>&lt;LI>&lt;span class=&quot;icon&quot; id=&quot;requirement-RestrictedFieldValues&quot;>&lt;/span>No puede contener información personal&lt;br/>(como nombre, nombre de usuario, e-mail, etc.)&lt;/LI>&lt;/UL>&lt;br/>&lt;HR/>&lt;b>Recomendaciones&lt;/b>&lt;UL>&lt;LI>Las contraseñas más largas son más seguras&lt;/LI>&lt;LI>No reutilice contraseñas de otras páginas web&lt;/LI>&lt;LI>Nuestro servicio al usuario nunca le pedirá su contraseña. ¡Guarde su contraseña en un lugar secreto!&lt;/LI>&lt;/UL>" type="password" />
+
+
+                            <div data-valmsg-for="Input.LoginData.Password" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=PasswordConfirmation class="fieldContainer">
+<label for="Input_LoginData_PasswordConfirmation">Repetir contrase&#241;a</label>
+                            <input data-val="true" data-val-equaltoproperty="La repetición de la contraseña no coincide con la contraseña inicial. Por favor, inténtelo de nuevo." data-val-equaltoproperty-other="*.Password" data-val-errorcode="AW" data-val-length="The field Repetir contraseña must be a string with a maximum length of 20." data-val-length-max="20" data-val-requiredif="Por favor, repita su contraseña." data-val-requiredif-dependencymap="Password={{Any}}" id="Input_LoginData_PasswordConfirmation" name="Input.LoginData.PasswordConfirmation" title="Por favor, repita su contraseña." type="password" />
+
+
+                            <div data-valmsg-for="Input.LoginData.PasswordConfirmation" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=CurrencyCode class="fieldContainer">
+<label for="Input_CurrencyData_CurrencyCode">Moneda</label>
+                            
+<select class="please-select" data-submitdisabledvalue="true" data-val="true" data-val-errorcode="AJ" data-val-required="Debe seleccionar una unidad monetaria." id="Input_CurrencyData_CurrencyCode" name="Input.CurrencyData.CurrencyCode" title=""><option value="">Por favor, elija...</option>
+<option value="ARS">ARS</option>
+<option value="BGN">BGN</option>
+<option value="CHF">CHF</option>
+<option value="CZK">CZK</option>
+<option value="DKK">DKK</option>
+<option value="EUR">EUR</option>
+<option selected="selected" value="GBP">GBP</option>
+<option value="HRK">HRK</option>
+<option value="HUF">HUF</option>
+<option value="MXN">MXN</option>
+<option value="NOK">NOK</option>
+<option value="PLN">PLN</option>
+<option value="RON">RON</option>
+<option value="RUB">RUB</option>
+<option value="SEK">SEK</option>
+<option value="TRY">TRY</option>
+<option value="USD">USD</option>
+</select><input id="Input_CurrencyData_CurrencyCode" name="Input.CurrencyData.CurrencyCode" type="hidden" value="ARS" />
+
+                            <div data-valmsg-for="Input.CurrencyData.CurrencyCode" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=SecurityQuestion class="fieldContainer">
+<label for="Input_SecurityData_SecurityQuestion">Pregunta de seguridad</label>
+                            
+<select class="please-select" data-submitdisabledvalue="true" data-val="true" data-val-errorcode="BA" data-val-length="La pregunta de seguridad es demasiado corta o demasiado larga." data-val-length-max="100" data-val-required="Es obligatorio indicar una pregunta de seguridad." id="Input_SecurityData_SecurityQuestion" name="Input.SecurityData.SecurityQuestion" title=""><option value="">Por favor, elija...</option>
+<option value="2">&#191;El segundo nombre de mi padre?</option>
+<option value="5">&#191;Mi animal dom&#233;stico favorito?</option>
+<option value="6">&#191;Mi club favorito?</option>
+<option value="8">&#191;El segundo nombre de mi primer/a hijo/a?</option>
+<option value="10">&#191;El apellido de mi madre?</option>
+<option value="11">&#191;Mi primer coche?</option>
+<option value="12">&#191;Mi hobby favorito?</option>
+<option value="13">&#191;Mi apodo?</option>
+<option value="14">&#191;Mi c&#243;digo secreto?</option>
+<option value="16">&#191;Mi libro favorito?</option>
+<option value="17">&#191;Mi h&#233;roe de la infancia?</option>
+</select><input id="Input_SecurityData_SecurityQuestion" name="Input.SecurityData.SecurityQuestion" type="hidden" value="2" />
+
+                            <div data-valmsg-for="Input.SecurityData.SecurityQuestion" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=SecurityAnswer class="fieldContainer">
+<label for="Input_SecurityData_SecurityAnswer">Respuesta de seguridad</label>
+                            <input data-val="true" data-val-errorcode="AZ" data-val-length="La respuesta de seguridad es demasiado larga o demasiado corta." data-val-length-max="100" data-val-length-min="3" data-val-required="Es obligatorio indicar la respuesta de seguridad." id="Input_SecurityData_SecurityAnswer" name="Input.SecurityData.SecurityAnswer" title="Le solicitaremos que nos indique su respuesta de seguridad cada vez que realice un pago o reinicie su contraseña." type="text" value="" />
+
+                            <div data-valmsg-for="Input.SecurityData.SecurityAnswer" data-valmsg-replace="false"></div>
+                        </div>
+                        <div id=TacAcceptance class="fieldContainer">
+
+                            <label class="checkbox-label"><input data-val="true" data-val-errorcode="BC" data-val-mustbe="Por favor, confirme que ha leído y aceptado las Disposiciones Generales." data-val-mustbe-valid="True" data-val-required="The TacAcceptance field is required." id="Input_TermsAndConditions_TacAcceptance" name="Input.TermsAndConditions.TacAcceptance" title="" type="checkbox" value="true" /><input name="Input.TermsAndConditions.TacAcceptance" type="hidden" value="false" /><span class="checker"></span><span><p class="description">Soy mayor de 18 a&ntilde;os y he le&iacute;do y aceptado las <a href="/process.php?d=x5B99EadEkgchdzWWxnQgckJMmhPjW58q9e2zGeCsvSpBWihfGA1SSVA7hfgwaeAHEzjnj4v1PYXpn6BpsHd5iVwLyHmUJC4CcKGDDoPKyxhmOQ%3D&amp;b=1" title="Disposiciones Generales" data-popup-params="resizable=1, toolbar=1, status=1, scrollbars=1, width=780, height=700" rel="popup" target="_blank">Disposiciones Generales</a>.<br />
+Acepto recibir informaciones de bwin, un servicio que podr&eacute; cancelar en mi cuenta en cualquier momento.<br />
+Aviso: bwin no ofrece apuestas a los residentes en Estados Unidos.</p></span></label>
+
+
+                            <div data-valmsg-for="Input.TermsAndConditions.TacAcceptance" data-valmsg-replace="false"></div>
+                        </div>
+                                            <div id="Captcha" class="fieldContainer">
+                            <div class="captcha">
+
+                            </div>
+                        </div>
+                        <div id="registernow" class="btn-l3">
+                            <input id="submit" name="submit" type="submit" value="¡Crear mi cuenta!" />
+                        </div>
+
+                </div>
+            </div>
+    </div>
+ 
