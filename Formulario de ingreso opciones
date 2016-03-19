@@ -1,7 +1,11 @@
-<form action="/process.php?d=x5B99FmPCRZQkMLRG1Tcg4tDJDQSj2x7vdGlwT6Cs%2Fw%3D&b=1" data-submitdisabledvalue="true" id="registration-form" method="post"><input name="__RequestVerificationToken" type="hidden" value="lp35VKSV9WkVHMi-HfWCNn-fpH6J13hwHst4VKMAqUa5Cxt9LI-T70VUww4We5gQCRnG6Q2" />    <div id="summary-panel" class=" ">
-        <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
-</ul></div>
-    </div>
+<!DOCTYPE html>
+<html>
+<head>
+
+<head/>
+<body>
+<body bgcolor="#A9F5A9">
+<body background="cono.gif" text=blue>
     <fieldset id="registration-fieldset">
 
     <div id="steps">
@@ -514,4 +518,5 @@ Aviso: bwin no ofrece apuestas a los residentes en Estados Unidos.</p></span></l
                 </div>
             </div>
     </div>
- 
+    </body>
+ /html>
